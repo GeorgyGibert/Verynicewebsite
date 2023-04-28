@@ -1,0 +1,317 @@
+/*Settings*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    background: url('https://images.wallpaperscraft.ru/image/single/derevia_tuman_chb_148531_3840x2400.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.content__fon{
+    padding-top: 5px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+header{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    background-color: rgba( 15, 15, 14, 0.9);
+    border-style: groove;
+    border-color: black;
+}
+
+.header__cap{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header__title{
+    margin-left: 30px;
+    font-family: 'RalewayRegular';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 100px;
+    color: white;
+}
+
+.header__navigation a{
+    font-family: 'Amiko';
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.header__navigation a:hover{
+    color:gray;
+    text-shadow:
+    0 0 5px black,
+    0 0 7px black,
+    0 0 10px black,
+    0 0 20px black;
+}
+
+.header__navigation a:last-child{
+    padding-right: 30px;
+}
+
+.header__navigation{
+    padding-top: 35px;
+}
+
+.not__only{
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    max-width: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba( 0, 0, 0, 0.7);
+    box-shadow: 2px 4px 20px 11px black;
+    border-radius: 25px;
+}
+
+.news__content{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 30px;
+    padding-bottom:20px;
+    font-size: 35px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.news__img{
+    height: 500px;
+    width: 800px;
+    display:block;
+    margin:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news__text{
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    display:block;
+    margin:auto;
+    font-size: 23px;
+    color: white;
+    width: 38em;
+}
+
+.catalog__content{
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    max-width: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba( 0, 0, 0, 0.7);
+    box-shadow: 2px 4px 20px 11px black;
+    border-radius: 25px;
+}
+
+.catalog__book{
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    color: white;
+    width: 35em;
+}
+
+.catalog__name_book{
+    padding-top: 25px;
+    padding-bottom: 25px;;
+    display:block;
+    margin:auto;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.catalog__name_book:hover{
+    color: gray;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.catalog__page{
+    display: block;
+    margin: 0 auto;
+}
+
+.catalog__img{
+    padding-right: 100px;
+    height: 500px;
+    width: 800px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.catalog__author{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:block;
+    margin:auto;
+    text-align: center;
+    font-size: 30px;
+    width: 10em;
+    font-weight: 300;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.catalog__text{
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    display:block;
+    margin:auto;
+    font-size: 23px;
+    color: white;
+    width: 38em;
+}
+
+.catalog__score{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    display:block;
+    margin:auto;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.content__indent{
+    padding-bottom: 50px;
+}
+
+.catalog__score_bal{
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.info__page{
+    margin-top: 50px;
+    max-width: 1280px;
+    background: rgba( 39, 41, 43, 0.8);
+    border-style: outset;
+    border-color: black;
+}
+
+.info__list{
+    text-align: center;
+    margin: 25px;
+    padding: 4px;
+}
+
+.info__list li{
+    display: inline;
+    margin-right: 5px;
+    padding: 60px;
+}
+
+.info__map{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.info__map:hover{
+    color: gray;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.info__vk{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.info__vk:hover{
+    color: gray;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.info__github{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+
+.info__github:hover{
+    color: gray;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}

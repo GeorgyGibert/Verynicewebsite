@@ -1,0 +1,238 @@
+/*Settings*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+a{
+    text-decoration: none;
+}
+    
+section{
+    background: url('https://images.wallpaperscraft.ru/image/single/derevia_tuman_chb_148531_3840x2400.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content__fon{
+    padding-top: 5px;
+    padding-bottom: 50px;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.content__book{
+    padding-top: 15px;
+}
+.content__indent{
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    max-width: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba( 0, 0, 0, 0.7);
+    box-shadow: 2px 4px 20px 11px black;
+    border-radius: 25px;
+}
+
+header{
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-style: groove;
+    border-color: black;
+}
+    
+.header__cap{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+    
+.header__title{
+    margin-left: 30px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 100px;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+    
+.header__navigation a{
+    font-family: 'Amiko';
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+    text-shadow:
+        0 0 3px black,
+        0 0 4px black,
+        0 0 5px black,
+        0 0 8px black;
+}
+    
+.header__navigation a:hover{
+    color:gray;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
+    
+.header__navigation a:last-child{
+    padding-right: 30px;
+}
+    
+.header__navigation{
+    padding-top: 35px;
+}
+    
+.header__content{
+    background: rgba( 0, 0, 0, 0.7);
+    padding-top: 25px;
+}
+
+.books__downland{
+    font-size: 35px;
+    padding-top: 10px;
+    display:block;
+    margin:auto;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.books__downland:hover{
+    color: gray;
+}
+
+.books__name{
+    font-size: 40px;
+    padding-top: 10px;
+    display:block;
+    margin:auto;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.books__author{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display:block;
+    margin:auto;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.books__img{
+    height: 100px;
+    width: 200px;
+    border-radius: 0.2em;
+    float: left;
+    padding-left: 50px;
+    margin: 0 20px 0 0;
+    height: auto;
+}
+
+.books__text{ 
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    display:block;
+    margin:auto;
+    font-size: 22px;
+    color: white;
+    width: 38em;
+}
+
+.info__page{
+    margin-top: 50px;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.8);
+    border-style: groove;
+    border-color: black;
+}
+    
+.info__list{
+    text-align: center;
+    margin: 25px;
+    padding: 4px;
+}
+    
+.info__list li{
+    display: inline;
+    margin-right: 5px;
+    padding: 60px;
+}
+    
+.info__map{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
+    
+.info__map:hover{
+    color: gray;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
+    
+.info__vk{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
+    
+.info__vk:hover{
+    color: gray;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
+    
+.info__github{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
+    
+.info__github:hover{
+    color: gray;
+    text-shadow:
+    0 0 7px black,
+    0 0 15px black,
+    0 0 20px black,
+    0 0 25px black;
+}
